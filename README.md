@@ -3,7 +3,7 @@ A group of interactive notebooks built with the intent of studying the process o
 
 #### HOW-TO: build the dataset
 
-The first time any notebook that makes use of data is executed, the [origin dataset](https://doi.org/10.7910/DVN/CHMUYZ) will automatically be downloaded and preprocessed.
+The first time any notebook that makes use of data is executed, the [origin dataset](https://doi.org/10.7910/DVN/RBKVBM) will automatically be downloaded and preprocessed.
 Once done, the project structure should look somewhat like this:
 
 ```
@@ -16,7 +16,7 @@ Once done, the project structure should look somewhat like this:
 │   │   │   ├── newsdata
 │   │   │   │   └── ...
 │   │   │   ├── labels.tsv
-│   │   │   └── raw.tar.bz2
+│   │   │   └── raw.tar
 │   │   └── dataset.csv    
 │   └── preprocessed
 │       ├── dictionary.dict
